@@ -24,39 +24,119 @@ export default {
     return {
       glosarioData: [
         {
-          termino: 'ACID',
+          termino: 'Actuador',
           significado:
-            'Acrónimo de Atomicidad, Consistencia, Aislamiento y Durabilidad; propiedades que garantizan que las transacciones en una base de datos sean fiables.',
+            'Dispositivo que recibe señales de control y realiza una acción física, como abrir una válvula o activar un motor, en función de los datos recibidos de un sistema IoT.',
         },
         {
-          termino: 'Algoritmo',
+          termino: 'Agricultura de Precisión',
           significado:
-            'Conjunto ordenado y finito de operaciones sistemáticas que permite hacer un cálculo y hallar la solución de un problema específico.',
+            'Técnica de gestión agrícola que utiliza datos detallados para optimizar el uso de insumos y mejorar el rendimiento y sostenibilidad del sistema productivo.',
         },
         {
-          termino: 'Base de datos',
+          termino: 'AWS IoT',
           significado:
-            'Sistema organizado para recopilar, almacenar y gestionar datos de manera estructurada y eficiente.',
+            'Plataforma de Amazon Web Services para gestionar y analizar dispositivos IoT a escala industrial, con capacidades avanzadas de <em>Machine Learning</em> e inteligencia artificial.',
         },
         {
-          termino: 'CRUD',
+          termino: '<em>Big Data</em>',
           significado:
-            '<i>Acrónimo de Create, Read, Update, Delete;</i> operaciones básicas que se pueden realizar sobre datos almacenados.',
+            'Manejo y análisis de grandes volúmenes de datos, caracterizados por su volumen, velocidad y variedad, utilizados en la agricultura para identificar patrones y tendencias.',
         },
         {
-          termino: '<i>Dataset</i>',
+          termino: 'Ciencia de Datos',
           significado:
-            'Conjunto de datos organizados y formateados de manera específica para su uso en análisis o entrenamiento de modelos.',
+            'Disciplina que combina estadística, informática y conocimiento del dominio para analizar grandes volúmenes de datos y extraer información valiosa para la toma de decisiones.',
         },
         {
-          termino: 'Datos estructurados',
+          termino: '<em>Dashboards</em>',
           significado:
-            'Información que está organizada en un formato predefinido y fácilmente procesable por máquinas, típicamente en tablas con filas y columnas.',
+            'Interfaces visuales interactivas que muestran datos clave en tiempo real, facilitando el monitoreo y análisis de sistemas productivos agrícolas.',
         },
         {
-          termino: 'ETL',
+          termino: 'Ética en la Gestión de Datos',
           significado:
-            '<i>Extract, Transform, Load </i>(Extraer, Transformar, Cargar); proceso que permite a las organizaciones mover datos desde múltiples fuentes, reformatearlos y limpiarlos, y cargarlos en otra base de datos.',
+            'Principios y normas que guían el uso responsable y transparente de los datos, respetando la privacidad y los derechos de los productores.',
+        },
+        {
+          termino: 'Internet de las Cosas (IoT)',
+          significado:
+            'Conjunto de dispositivos físicos conectados a Internet, que recopilan, comparten y analizan datos para automatizar procesos y facilitar la toma de decisiones en tiempo real.',
+        },
+        {
+          termino: 'LoRaWAN',
+          significado:
+            'Protocolo de comunicación de largo alcance y bajo consumo de energía, ideal para conectar dispositivos IoT en áreas extensas, como campos agrícolas.',
+        },
+        {
+          termino: '<em>Machine Learning</em>',
+          significado:
+            'Rama de la inteligencia artificial que permite a las máquinas aprender y mejorar sus predicciones basándose en datos históricos y en tiempo real.',
+        },
+        {
+          termino: 'Microcontrolador (MCU)',
+          significado:
+            'Circuito integrado que funciona como el cerebro de un sistema IoT, procesando los datos de los sensores y transmitiéndolos a plataformas en la nube. Ejemplos: ESP32, ESP8266.',
+        },
+        {
+          termino: 'Modelos Predictivos',
+          significado:
+            'Algoritmos que utilizan datos históricos y actuales para prever resultados futuros, como el rendimiento de cultivos o la aparición de plagas.',
+        },
+        {
+          termino: 'Monitoreo Agrícola',
+          significado:
+            'Proceso de supervisión y recopilación de datos en tiempo real sobre las condiciones del cultivo, suelo y clima, utilizando tecnologías avanzadas como sensores y drones.',
+        },
+        {
+          termino: 'Plataforma en la Nube',
+          significado:
+            'Entorno digital en línea donde se almacenan, procesan y visualizan los datos de los dispositivos IoT, permitiendo el acceso y gestión remota del sistema.',
+        },
+        {
+          termino: 'Riego Inteligente',
+          significado:
+            'Sistema automatizado de riego que utiliza sensores y algoritmos para ajustar la cantidad y frecuencia del agua aplicada, optimizando el uso del recurso hídric.',
+        },
+        {
+          termino: 'Seguridad de Datos',
+          significado:
+            'Prácticas y tecnologías que garantizan la protección de datos agrícolas contra accesos no autorizados, robos o manipulaciones.',
+        },
+        {
+          termino: 'Sensor',
+          significado:
+            'Dispositivo que detecta y mide variables físicas como temperatura, humedad, presión, y las convierte en datos digitales para su procesamiento y análisis en sistemas IoT.',
+        },
+        {
+          termino: 'Sensores IoT',
+          significado:
+            'Dispositivos conectados a internet que recopilan y transmiten datos en tiempo real, utilizados en la agricultura para medir variables como humedad, temperatura y pH.',
+        },
+        {
+          termino: 'Simulador Agrícola',
+          significado:
+            'Herramienta virtual que permite modelar escenarios agrícolas para analizar y prever el comportamiento de sistemas productivos bajo diferentes condiciones.',
+        },
+        {
+          termino: 'Sostenibilidad Agrícola',
+          significado:
+            'Práctica de gestión que busca equilibrar la productividad agrícola con la conservación del medio ambiente y el uso eficiente de recursos.',
+        },
+        {
+          termino: 'ThingSpeak',
+          significado:
+            'Plataforma en la nube popular para proyectos IoT pequeños, que permite almacenar y visualizar datos de sensores en tiempo real, y configurar alertas automáticas.',
+        },
+        {
+          termino: 'Variables Agrícolas',
+          significado:
+            'Factores medibles que afectan la producción agrícola, como la humedad del suelo, temperatura, nutrientes y plagas.',
+        },
+        {
+          termino: 'Visualización de Datos',
+          significado:
+            'Representación gráfica de la información, utilizando gráficos, mapas y <em>dashboards</em> para facilitar la interpretación y toma de decisiones basadas en datos.',
         },
       ],
     }

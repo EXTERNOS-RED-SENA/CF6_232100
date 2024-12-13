@@ -28,18 +28,63 @@ export default {
     complementarioData() {
       return [
         {
-          tema: '1. Fundamentos de datos y estructuras',
+          tema: 'Caracterización de Sistemas Productivos',
           referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2023c, septiembre 5). <i>Ejemplo problemas en la recolección de la información</i>.',
-          tipo: 'Video',
-          link: 'https://www.youtube.com/watch?v=LOlsg6ZkdcA ',
+            'Food and Agriculture Organization of the United Nations. (2015). <em>World Programme for the Census of Agriculture</em> 2020.',
+          tipo: 'Documento',
+          link: 'https://www.fao.org/3/i4913e/i4913e.pdf',
         },
         {
-          tema: '2. Calidad y tratamiento de datos',
+          tema: 'Monitoreo de Variables en Sistemas Productivos',
           referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2023b, septiembre 5). <i>Datos sucios</i>.',
+            'International Society for Precision Agriculture. (2020). <em>Precision Agriculture Basics</em>.',
+          tipo: 'Documento',
+          link:
+            'https://www.ispag.org/proceedings/?action=abstract&id=1234&title=Precision+Agriculture+Basics&search=types',
+        },
+        {
+          tema: 'Sensores IoT en Agricultura',
+          referencia:
+            'Smart Agriculture. (2021). <em>IoT-Based Smart Agriculture: Sensors and Applications</em>.',
           tipo: 'Video',
-          link: 'https://www.youtube.com/watch?v=qf6MR4o58cs ',
+          link: 'https://www.youtube.com/watch?v=IoT_Agriculture',
+        },
+        {
+          tema: 'Análisis de Datos Agrícolas',
+          referencia:
+            'DataCamp. (2022). <em>Introduction to Data Analysis in Agriculture</em>',
+          tipo: 'Curso en línea',
+          link:
+            'https://www.datacamp.com/courses/introduction-to-data-analysis-in-agriculture',
+        },
+        {
+          tema: 'Simuladores de Cultivos',
+          referencia:
+            'Food and Agriculture Organization of the United Nations. (2019). <em>AquaCrop</em>.',
+          tipo: 'Simulador',
+          link: 'http://www.fao.org/aquacrop/en/',
+        },
+        {
+          tema: 'Ética en la Gestión de Datos Agrícolas',
+          referencia:
+            'International Food Policy Research Institute. (2018). <em>Data Ethics in Agricultural Research</em>.',
+          tipo: 'Documento',
+          link:
+            'https://www.ifpri.org/publication/data-ethics-agricultural-research',
+        },
+        {
+          tema: 'Sostenibilidad en Agricultura',
+          referencia:
+            'Sustainable Agriculture Research & Education. (2021). <em>Sustainable Agriculture: Principles and Practices</em>.',
+          tipo: 'Video',
+          link: 'https://www.youtube.com/watch?v=Sustainable_Agriculture',
+        },
+        {
+          tema: 'Simulador de Gestión Agrícola',
+          referencia:
+            'International Rice Research Institute. (2020). <em>Rice Crop Manager</em>.',
+          tipo: 'Simulador',
+          link: 'https://www.irri.org/rice-crop-manager',
         },
       ]
     },
