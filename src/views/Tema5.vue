@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 5
-      h1 
+      h1 Técnicas de análisis y modelado de datos
       
                                                                                                     
 </template>
